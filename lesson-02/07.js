@@ -1,3 +1,4 @@
+
 let passportMarried = {
     name: "Petr",
     surname: "Petrov",
@@ -8,7 +9,12 @@ let passportMarried = {
 };
 
 
-let copyPassportMarried = {...passportMarried, married: true, address: {...passportMarried.address}};
+let passportMarried2= {...passportMarried, address: {...passportMarried.address}};
+passportMarried2.married = true
 
-console.log(passportMarried)
-console.log(copyPassportMarried)
+
+
+
+
+console.log(passportMarried); 
+console.log(passportMarried2);
