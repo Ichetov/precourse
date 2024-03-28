@@ -8,4 +8,4 @@ const giveMeRightCondition = (value1, value2, maximum) => {
 
 
 
-console.log(giveMeRightCondition(100, 300, 200))
+giveMeRightCondition(100, 300, 200)
