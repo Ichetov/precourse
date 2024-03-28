@@ -6,6 +6,7 @@ let passport = {
 
 let copyPassport = {...passport, name: 'Ivan'}
 
-console.log(copyPassport)
 
-console.log(passport)
+console.log(passport.name)
+console.log(copyPassport.name)
+
